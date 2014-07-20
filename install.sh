@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#https://github.com/piwikla/centos-nginx
+#https://github.com/piwikla/centos6-nginx
 
 #Add Dotdeb
 sudo rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
