@@ -7,8 +7,8 @@ sudo rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8
 sudo rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 
 #Update
-apt-get update
-apt-get upgrade
+sudo yum update
+sudo yum upgrade
 
 #Install MySQL
 sudo yum install mysql mysql-server
