@@ -2,7 +2,7 @@
 
 #https://github.com/piwikla/centos6-nginx
 
-#Add Dotdeb
+#Install the Required Repositories
 sudo rpm -Uvh http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 sudo rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 
@@ -45,4 +45,4 @@ sudo chkconfig --levels 235 nginx on
 sudo chkconfig --levels 235 php-fpm on
 sudo service php5-fpm restart
 sudo service nginx restart
-sudo service mysql restart
+sudo service mysqld restart
