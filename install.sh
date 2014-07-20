@@ -28,7 +28,7 @@ sudo chkconfig --levels 235 nginx on
 sudo chkconfig --levels 235 php-fpm on
 
 #config nginx
-cp /etc/nginx/conf.d/default.conf /etc/nginx/sites-available/piwik.la
+cp /etc/nginx/conf.d/virtual.conf /etc/nginx/sites-available/piwik.la
 ln -s /etc/nginx/sites-available/piwik.la /etc/nginx/sites-enabled
 rm /etc/nginx/conf.d/default.conf
 
