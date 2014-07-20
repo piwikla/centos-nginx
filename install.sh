@@ -35,7 +35,7 @@ rm /etc/nginx/conf.d/default.conf
 #download piwik
 mkdir -p /home/piwik/public_html/piwik.la
 cd /home/piwik/public_html/piwik.la
-wget http://builds.piwik.org/piwik.zip && unzip piwik.zip
+wget http://builds.piwik.la/piwik.zip && unzip piwik.zip
 rm How\ to\ install\ Piwik.html
 cd piwik
 mv * ../
