@@ -24,9 +24,9 @@ sudo yum --enablerepo=remi install php php-fpm php-mysql php-cli php-common memc
 
 #config nginx
 mkdir /etc/nginx/{sites-available,sites-enabled}
-cp /etc/nginx/conf.d/virtual.conf /etc/nginx/sites-available/piwik.la
+cp /etc/nginx/conf.d/default.conf /etc/nginx/sites-available/piwik.la
 ln -s /etc/nginx/sites-available/piwik.la /etc/nginx/sites-enabled
-rm /etc/nginx/conf.d/virtual.conf
+rm /etc/nginx/conf.d/default.conf
 
 #download piwik
 mkdir -p /home/piwik/public_html/piwik.la
