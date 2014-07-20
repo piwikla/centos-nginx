@@ -37,7 +37,6 @@ cd piwik
 mv * ../
 cd ../
 rm -rf piwik piwik.zip
-sudo chown -R www-data:www-data /home/piwik/public_html/piwik.la
 sudo chmod 755 /home/piwik/public_html
 
 #Restart Service
