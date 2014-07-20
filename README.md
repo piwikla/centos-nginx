@@ -7,5 +7,4 @@ installation guide
 ==================
 
 wget https://github.com/piwikla/centos6-nginx/raw/master/install.sh
-
 sh install.sh
