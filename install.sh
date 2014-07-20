@@ -20,7 +20,7 @@ sudo /etc/init.d/mysqld restart
 sudo /usr/bin/mysql_secure_installation
 
 #Install PHP 
-sudo yum --enablerepo=remi install php php-fpm php-mysql php-cli php-common memcached
+sudo yum --enablerepo=remi install php php-fpm php-mysql php-cli php-common memcached php5-gd php-dom php-xml php-mbstring
 
 #config nginx
 mkdir /etc/nginx/{sites-available,sites-enabled}
